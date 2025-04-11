@@ -13,7 +13,7 @@ There are other some other command-line tools to search browser bookmarks from t
 Firefox, Chrome and Brave all have quite easily accessible bookmark data. Chrome and Brave's format is simpler as they provide human readable JSON. Firefox provides and `sqlite` database. For more programmatic use cases, you might prefer to read these files directly.
 
 # Install
-This package is written in Python, you can use [pipx]() to install it.
+This package is written in Python, you can use [pipx](https://github.com/pypa/pipx) to install it.
 
 ```
 pipx install brave-bookmarks
