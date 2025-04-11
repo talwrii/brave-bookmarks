@@ -1,4 +1,6 @@
 # Brave Bookmarks
+@readwithai - [X](https://x.com/readwithai) - [blog](https://readwithai.substack.com/) - [machine-aided reading]()
+
 This is a command-line script to query Brave's bookmark. It was written on linux but can be quickly adapted for other systems.
 
 # Alternative's and prior work
@@ -30,6 +32,17 @@ bravemark $name
 
 Will show the url of the bookmark named `$name`.
 
+
+You can use this script as is, but if you access bookmarks a lot you might like to add a little automation. I use my [zshnip snippet framework](https://github.com/facetframer/zshnip) together with [fzf](https://github.com/junegunn/fzf) and [xclip](https://github.com/astrand/xclip) to make some useful snippets to make using these commands even more convenient. These features are not merged into the program because they would both be brittle and different users likely want different automations. Users might like to combine these with command-line shell scripts, shell aliases, or GUI keyboard shortcuts (potentially together with a GUI fuzzy selector- like [rofi](https://github.com/adi1090x/rofi))
+
+I use the following [zshnip](https://github.com/facetframer/zshnip) snippets.
+
+```
+bmz -> bravemarks | fzf
+bmg -> bravemarks | grep
+bmzcli -> bravemarks | fzf | xargs bravemark | xclip -selection clipboard -i
+```
+
 # About me
 I am @readwithai. I make tools related to reading and research sometimes usings [Obsidian](https://readwithai.substack.com/p/what-exactly-is-obsidian
 ).
@@ -39,6 +52,6 @@ If you found this repository interesting you might like to:
 2. Have a look at [my command-line snippet tool, zshnip](https://github.com/facetframer/zshnip)
 3. Follow me on [X](https//x.com/readwithai) where I post about this sort of thing.
 
-You could also look at my [blog](https://readwithai.substack.com/) where I write about reading and research.
+You could also look at my [blog](https://readwithai.substack.com/) where I write about reading and research; or check out the [machine-aided reading subreddit](https://www.reddit.com/r/machineAidedReading/)
 
 ![readwithai logo](logo.png)
