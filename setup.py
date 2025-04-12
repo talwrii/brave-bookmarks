@@ -4,13 +4,13 @@ import distutils.core
 setuptools.setup(
     name='brave-bookmarks',
     version="1.0.1",
-    author='Author',
+    author='@readwithai',
     long_description_content_type='text/markdown',
-    author_email='Email',
+    author_email='talwrii@gmail.com',
     description='',
     license='MIT',
     keywords='bookmarks, brave, command-line',
-    url='',
+    url='https://github.com/talwrii/brave-bookmarks',
     packages=["brave_bookmarks"],
     long_description=open('README.md').read(),
     entry_points={

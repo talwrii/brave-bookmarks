@@ -43,6 +43,12 @@ bmg -> bravemarks | grep
 bmzcli -> bravemarks | fzf | xargs bravemark | xclip -selection clipboard -i
 ```
 
+# Support
+If you found this piece of software useful you can donate ($2 maybe) to [my ko-fi]( https://ko-fi.com/c/409f19e716).
+
+This will incentivize me to respond to feature requests for this project and create [similar command-line tools](https://readwithai.substack.com/p/my-productivity-tools)
+
+
 # About me
 I am @readwithai. I make tools related to reading and research sometimes usings [Obsidian](https://readwithai.substack.com/p/what-exactly-is-obsidian
 ).
