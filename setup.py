@@ -3,7 +3,7 @@ import distutils.core
 
 setuptools.setup(
     name='brave-bookmarks',
-    version="1.0.1",
+    version="1.1.0",
     author='@readwithai',
     long_description_content_type='text/markdown',
     author_email='talwrii@gmail.com',
