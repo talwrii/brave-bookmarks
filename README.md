@@ -43,6 +43,13 @@ bmg -> bravemarks | grep
 bmzcli -> bravemarks | fzf | xargs bravemark | xclip -selection clipboard -i
 ```
 
+# Missing features
+* Support for mac or windows
+* Ability to filter to tag
+* Profiles
+
+I will likely implement these if and when I need them. I am open to patches for these (as in I will merge them within days and rerelease).
+
 # Support
 If you found this piece of software useful you can donate ($2 maybe) to [my ko-fi]( https://ko-fi.com/c/409f19e716).
 
